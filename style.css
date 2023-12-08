@@ -1,0 +1,14 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+aside img{
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    transform: translate(-50%);
+}
+menu{
+    padding: 0px;
+    
+}
