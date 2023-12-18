@@ -1,14 +1,11 @@
+
 body{
-    padding: 0px;
-    margin: 0px;
+    image-rendering: pixelated;  
 }
-aside img{
+article .card{
     position: absolute;
-    width: 500px;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
-}
-menu{
-    padding: 0px;
-    
+    border: 2px solid rgb(0, 38, 255);
 }
