@@ -1,26 +1,13 @@
-
 body{
     image-rendering: pixelated;
 }
 article .card{
-    transition: 1s ease-in-out;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
     left: 50%;
-    border: 2px solid rgb(0, 38, 255);
-    background-position: center center;
-}
-menu{
-    display: flex;
-    height: fit-content;
-    padding: 20px;
-    background-image: url(assets/Gifs/2.gif);
-    background-position: center center;
-    background-size: 40%;
-    margin: -8px;
-    align-items: center;
-    justify-content: space-between;
+    top: 50%;
+    border-radius: 5px;
+    border: 2px solid blue;
 }
 #backgroundPortal{
     background-image: url(assets/Gifs/HomeBackGround.gif);
