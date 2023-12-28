@@ -6,17 +6,7 @@ body{
     image-rendering: pixelated;
     background-color: rgb(254, 150, 167);
 }
-::-webkit-scrollbar{
-    background-color: transparent;
-}
-::-webkit-scrollbar-thumb{
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:active{
-    background-color: rgba(0, 98, 255, 0.5);
-}
+
 menu{
     display: flex;
     height: fit-content;
