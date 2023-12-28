@@ -6,6 +6,7 @@ body{
     image-rendering: pixelated;
     background-color: rgb(254, 150, 167);
 }
+
 ::-webkit-scrollbar{
     background-color: transparent;
 }
@@ -75,9 +76,9 @@ nav .material-symbols-outlined:hover{
     top: 50%;
     width: 200px;
 }
-#cena{
-    width: 50vw;
+#login{
+    color: rgb(54, 54, 54);
 }
-aside{
-    margin: 20px;
+header{
+    background-color: rgb(29, 29, 29);
 }
