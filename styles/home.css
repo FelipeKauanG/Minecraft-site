@@ -6,17 +6,7 @@ body{
     image-rendering: pixelated;
     background-color: rgb(254, 150, 167);
 }
-::-webkit-scrollbar{
-    background-color: transparent;
-}
-::-webkit-scrollbar-thumb{
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:active{
-    background-color: rgba(0, 98, 255, 0.5);
-}
+
 menu{
     display: flex;
     height: fit-content;
@@ -59,7 +49,6 @@ menu img{
 nav .material-symbols-outlined{
     color: rgb(73, 73, 73);
     font-size: 50px;
-
 }
 #renderCanvas{
     position: relative;
@@ -70,7 +59,37 @@ nav .material-symbols-outlined{
     top: 50%;
     width: 200px;
 }
-
 header{
     background-color: rgb(29, 29, 29);
+}
+#info{
+    display: none;
+    color: red;
+}
+#login:hover{
+    color: red;
+}
+form{
+    z-index: 998;
+    background-color: rgb(118, 117, 117);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.foto{
+    cursor: pointer;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-position: center center;
+    border-radius: 50%;
+    background-image: url(../assets/Login/userphoto.png);
 }

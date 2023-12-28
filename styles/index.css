@@ -10,7 +10,7 @@ article .card{
     border: 2px solid blue;
 }
 #backgroundPortal{
-    background-image: url(assets/Gifs/HomeBackGround.gif);
+    background-image: url(../assets/Gifs/HomeBackGround.gif);
     background-size: cover;
     background-position: center center;
 }
